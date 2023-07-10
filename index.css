@@ -35,23 +35,40 @@
     text-decoration: none;
   }
   
- .row {
-  display: flex; /* Use flexbox to create a row */
-  justify-content: space-between; /* Align columns to left and right edges */
-  align-items: center; /* Vertically center images in the row */
+ html, body {
+  height: 100%; /* Set the height of the page to 100% */
+}
+
+.row {
+  height: 100%; /* Set the height of the row to 100% */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the row vertically */
 }
 
 .column {
-  flex-basis: 30%; /* Set width of each column to 30% */
-  text-align: center; /* Center the image horizontally within the column */
+  flex-basis: 33.33%;
+  text-align: center;
 }
 
 .column img {
-  max-width: 100%; /* Ensure image does not overflow the column */
-  height: auto; /* Maintain aspect ratio of the image */
+  max-width: 100%;
+  height: auto;
 }
 
 figcaption {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+figcaption h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+figcaption p {
   font-size: 14px;
   color: #666;
   text-align: center;
