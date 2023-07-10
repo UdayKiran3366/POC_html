@@ -35,26 +35,24 @@
     text-decoration: none;
   }
   
- 
-  
-  .features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-  }
-  .feature {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ .row {
+  display: flex; /* Use flexbox to create a row */
+  justify-content: space-between; /* Align columns to left and right edges */
+  align-items: center; /* Vertically center images in the row */
 }
-  .feature {
-    text-align: center;
-    margin: 0 20px;
-  }
-  
-  .feature img {
-    width: 100px;
-    height: 100px;
-   
-  
+
+.column {
+  flex-basis: 30%; /* Set width of each column to 30% */
+  text-align: center; /* Center the image horizontally within the column */
+}
+
+.column img {
+  max-width: 100%; /* Ensure image does not overflow the column */
+  height: auto; /* Maintain aspect ratio of the image */
+}
+
+figcaption {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
