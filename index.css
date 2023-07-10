@@ -35,27 +35,7 @@
     text-decoration: none;
   }
   
-  .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-  
-  .hero-content {
-    text-align: center;
-  }
-  
-
-  
-  .cta-button {
-    display: inline-block;
-    background-color: #ff9900;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-  }
+ 
   
   .features {
     display: flex;
@@ -63,7 +43,11 @@
     align-items: center;
     padding: 50px 0;
   }
-  
+  .feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   .feature {
     text-align: center;
     margin: 0 20px;
