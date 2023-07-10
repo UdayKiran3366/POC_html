@@ -5,6 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AWS Harness POC</title>
   <link rel="stylesheet" href="index.css">
+  <style>
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .column {
+      flex-basis: 30%;
+      text-align: center;
+    }
+
+    .column img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,22 +44,21 @@
     </nav>
   </header>
 
-<div class="row">
-  <div class="column">
-    <img src="ccode.png">
-    <figcaption>Automate your software deployment process for faster releases</figcaption>
+  <div class="row">
+    <div class="column">
+      <img src="ccode.png">
+      <figcaption>Automate your software deployment process for faster releases</figcaption>
+    </div>
+    <div class="column">
+      <img src="images.png">
+      <figcaption>Define and provision infrastructure resources using code</figcaption>
+    </div>
+    <div class="column">
+      <img src="MAO.jpeg.jpg">
+      <figcaption>Gain insights into your applications and infrastructure performance</figcaption>
+    </div>
   </div>
-  <div class="column">
-    <img src="images.png">
-    <figcaption>Define and provision infrastructure resources using code</figcaption>
-  </div>
-  <div class="column">
-    <img src="MAO.jpeg.jpg">
-    <figcaption>Gain insights into your applications and infrastructure performance</figcaption>
-  </div>
-</div>
-  
-  
+
   <footer>
     <p>&copy;AWS Harness POC.</p>
   </footer>
